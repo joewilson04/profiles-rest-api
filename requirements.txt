@@ -1,2 +1,2 @@
 django==3.2.14
-Djangorestframework==3.9.2
+Djangorestframework==3.11.2
