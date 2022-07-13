@@ -17,7 +17,7 @@ class HelloAPIView(APIView):
         "Is mapped manually to URLs",
         ]
 
-        return Response({'message':'Hello!', 'an_apiview':an_apiview})
+        return Response({'an_apiview':an_apiview})
 
     def post(self, request):
         """Create a hello message with inputted name"""
@@ -32,3 +32,15 @@ class HelloAPIView(APIView):
             serializer.errors,
             status=status.HTTP_400_BAD_REQUEST
             )
+
+    def put(self, request, pk=None):
+        """Handle updating an object"""
+        return Response({'method': 'PUT'})
+
+    def patch(self, request, pk=None):
+        """Handles partial update of an object"""
+        return Response({'method': 'PATCH'})
+
+    def delete(self, request, pk=None):
+        """Delete an object"""
+        return Response({'method': 'DELETE'})
