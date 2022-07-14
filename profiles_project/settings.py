@@ -26,11 +26,8 @@ SECRET_KEY = ')i3+gkb0evvulmk8mv0z&2t^=j=bi2(b2ibf0+%g)!*x@x2jhl'
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    'ec2-3-10-213-51.eu-west-2.compute.amazonaws.com',
-    '127.0.0.1',
-    '3.10.213.51',
-    'ip-172-31-38-23.eu-west-2.compute.internal',
-    '172.31.38.23'
+    'ec2-13-41-229-26.eu-west-2.compute.amazonaws.com',
+    '127.0.0.1'
 ]
 
 
