@@ -3,9 +3,9 @@
 set -e
 
 # TODO: Set to URL of git repo.
-PROJECT_GIT_URL='https://github.com/CHANGEME'
+PROJECT_GIT_URL='https://github.com/joewilson04/profiles-rest-api.git'
 
-PROJECT_BASE_PATH='/usr/local/apps'
+PROJECT_BASE_PATH='/usr/local/apps/profiles-rest-api'
 VIRTUALENV_BASE_PATH='/usr/local/virtualenvs'
 
 # Set Ubuntu Language
