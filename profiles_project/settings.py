@@ -27,7 +27,10 @@ DEBUG = False
 
 ALLOWED_HOSTS = [
     'ec2-3-10-213-51.eu-west-2.compute.amazonaws.com',
-    '127.0.0.1'
+    '127.0.0.1',
+    '3.10.213.51',
+    'ip-172-31-38-23.eu-west-2.compute.internal',
+    '172.31.38.23'
 ]
 
 
